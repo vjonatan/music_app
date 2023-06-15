@@ -1,0 +1,188 @@
+2023-06-15T12:40:32.809-06:00  INFO 6215 --- [main] c.d.m.repository.AlbumRepositorySpec     : Starting AlbumRepositorySpec using Java 17.0.7 with PID 6215 (started by alejandro in /home/alejandro/Projects/DebuggeandoIdeas/udemy/music_app)
+2023-06-15T12:40:32.814-06:00  INFO 6215 --- [main] c.d.m.repository.AlbumRepositorySpec     : No active profile set, falling back to 1 default profile: "default"
+2023-06-15T12:40:33.137-06:00  INFO 6215 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-15T12:40:33.183-06:00  INFO 6215 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2023-06-15T12:40:33.226-06:00  INFO 6215 --- [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-06-15T12:40:33.345-06:00  INFO 6215 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:08c8ea58-9aa5-4524-8fda-fb2df21f9b5c;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-06-15T12:40:33.568-06:00  INFO 6215 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-15T12:40:33.607-06:00  INFO 6215 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-15T12:40:33.609-06:00  INFO 6215 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-15T12:40:33.685-06:00  INFO 6215 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:40:33.775-06:00  INFO 6215 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-15T12:40:33.812-06:00  INFO 6215 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-15T12:40:34.020-06:00  INFO 6215 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:40:34.456-06:00  INFO 6215 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-15T12:40:34.487-06:00  INFO 6215 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-15T12:40:34.488-06:00  INFO 6215 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:40:34.808-06:00  INFO 6215 --- [main] c.d.m.repository.AlbumRepositorySpec     : Started AlbumRepositorySpec in 2.239 seconds (process running for 2.892)
+2023-06-15T12:40:35.264-06:00  INFO 6215 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:40:35.264-06:00  INFO 6215 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-15T12:41:07.417-06:00  INFO 6340 --- [main] c.d.m.repository.AlbumRepositorySpec     : Starting AlbumRepositorySpec using Java 17.0.7 with PID 6340 (started by alejandro in /home/alejandro/Projects/DebuggeandoIdeas/udemy/music_app)
+2023-06-15T12:41:07.419-06:00  INFO 6340 --- [main] c.d.m.repository.AlbumRepositorySpec     : No active profile set, falling back to 1 default profile: "default"
+2023-06-15T12:41:07.701-06:00  INFO 6340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-15T12:41:07.757-06:00  INFO 6340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2023-06-15T12:41:07.790-06:00  INFO 6340 --- [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-06-15T12:41:07.893-06:00  INFO 6340 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:6cb26c54-baa1-4782-8a88-677a2cb51f66;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-06-15T12:41:08.081-06:00  INFO 6340 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-15T12:41:08.108-06:00  INFO 6340 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-15T12:41:08.110-06:00  INFO 6340 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-15T12:41:08.173-06:00  INFO 6340 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:41:08.252-06:00  INFO 6340 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-15T12:41:08.286-06:00  INFO 6340 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-15T12:41:08.488-06:00  INFO 6340 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:41:08.883-06:00  INFO 6340 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-15T12:41:08.926-06:00  INFO 6340 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-15T12:41:08.928-06:00  INFO 6340 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:41:09.235-06:00  INFO 6340 --- [main] c.d.m.repository.AlbumRepositorySpec     : Started AlbumRepositorySpec in 2.042 seconds (process running for 2.695)
+2023-06-15T12:41:09.696-06:00  INFO 6340 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:41:09.696-06:00  INFO 6340 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-15T12:44:38.859-06:00  INFO 6908 --- [main] c.d.m.repository.AlbumRepositorySpec     : Starting AlbumRepositorySpec using Java 17.0.7 with PID 6908 (started by alejandro in /home/alejandro/Projects/DebuggeandoIdeas/udemy/music_app)
+2023-06-15T12:44:38.861-06:00  INFO 6908 --- [main] c.d.m.repository.AlbumRepositorySpec     : The following 1 profile is active: "test"
+2023-06-15T12:44:39.136-06:00  INFO 6908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-15T12:44:39.175-06:00  INFO 6908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 3 JPA repository interfaces.
+2023-06-15T12:44:39.389-06:00  INFO 6908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-15T12:44:39.509-06:00  INFO 6908 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:music user=SA
+2023-06-15T12:44:39.510-06:00  INFO 6908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-15T12:44:39.537-06:00  INFO 6908 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-15T12:44:39.563-06:00  INFO 6908 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-15T12:44:39.564-06:00  INFO 6908 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-15T12:44:39.647-06:00  INFO 6908 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:44:39.756-06:00  INFO 6908 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-15T12:44:39.777-06:00  INFO 6908 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-15T12:44:39.928-06:00  INFO 6908 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:44:40.297-06:00  INFO 6908 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-15T12:44:40.323-06:00  INFO 6908 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-15T12:44:40.325-06:00  INFO 6908 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:44:40.613-06:00  INFO 6908 --- [main] c.d.m.repository.AlbumRepositorySpec     : Started AlbumRepositorySpec in 2.061 seconds (process running for 2.876)
+2023-06-15T12:44:41.061-06:00  INFO 6908 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:44:41.062-06:00  INFO 6908 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-15T12:44:41.064-06:00  WARN 6908 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2023-06-15T12:44:41.064-06:00 ERROR 6908 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-06-15T12:44:41.065-06:00  WARN 6908 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2023-06-15T12:44:41.065-06:00 ERROR 6908 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-06-15T12:44:41.066-06:00  WARN 6908 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution [Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]] [n/a]
+2023-06-15T12:44:41.066-06:00  INFO 6908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-15T12:44:41.068-06:00  INFO 6908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-15T12:44:49.474-06:00  INFO 7013 --- [main] c.d.m.repository.AlbumRepositorySpec     : Starting AlbumRepositorySpec using Java 17.0.7 with PID 7013 (started by alejandro in /home/alejandro/Projects/DebuggeandoIdeas/udemy/music_app)
+2023-06-15T12:44:49.475-06:00  INFO 7013 --- [main] c.d.m.repository.AlbumRepositorySpec     : The following 1 profile is active: "test"
+2023-06-15T12:44:49.755-06:00  INFO 7013 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-15T12:44:49.803-06:00  INFO 7013 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2023-06-15T12:44:49.970-06:00  INFO 7013 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:5abda86d-1fad-4df7-93b1-46236d2a76f9;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-06-15T12:44:50.161-06:00  INFO 7013 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-15T12:44:50.188-06:00  INFO 7013 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-15T12:44:50.190-06:00  INFO 7013 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-15T12:44:50.253-06:00  INFO 7013 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:44:50.329-06:00  INFO 7013 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-15T12:44:50.353-06:00  INFO 7013 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-15T12:44:50.509-06:00  INFO 7013 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:44:50.892-06:00  INFO 7013 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-15T12:44:50.919-06:00  INFO 7013 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-15T12:44:50.920-06:00  INFO 7013 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:44:51.192-06:00  INFO 7013 --- [main] c.d.m.repository.AlbumRepositorySpec     : Started AlbumRepositorySpec in 1.968 seconds (process running for 2.616)
+2023-06-15T12:44:51.625-06:00  INFO 7013 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:44:51.626-06:00  INFO 7013 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-15T12:44:51.630-06:00  INFO 7013 --- [SpringApplicationShutdownHook] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:5abda86d-1fad-4df7-93b1-46236d2a76f9;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2023-06-15T12:50:29.149-06:00  INFO 7778 --- [main] c.d.music_app.SpringTestApplication      : Starting SpringTestApplication using Java 17.0.7 with PID 7778 (/home/alejandro/Projects/DebuggeandoIdeas/udemy/music_app/target/classes started by alejandro in /home/alejandro/Projects/DebuggeandoIdeas/udemy/music_app)
+2023-06-15T12:50:29.151-06:00  INFO 7778 --- [main] c.d.music_app.SpringTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-06-15T12:50:29.521-06:00  INFO 7778 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-15T12:50:29.553-06:00  INFO 7778 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
+2023-06-15T12:50:29.826-06:00  INFO 7778 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-15T12:50:29.831-06:00  INFO 7778 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-15T12:50:29.831-06:00  INFO 7778 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-15T12:50:29.878-06:00  INFO 7778 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-15T12:50:29.878-06:00  INFO 7778 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 695 ms
+2023-06-15T12:50:29.895-06:00  INFO 7778 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-15T12:50:29.995-06:00  INFO 7778 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:music user=SA
+2023-06-15T12:50:29.996-06:00  INFO 7778 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-15T12:50:30.003-06:00  INFO 7778 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:music'
+2023-06-15T12:50:30.070-06:00  INFO 7778 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-15T12:50:30.096-06:00  INFO 7778 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-15T12:50:30.097-06:00  INFO 7778 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-15T12:50:30.156-06:00  INFO 7778 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:50:30.219-06:00  INFO 7778 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-15T12:50:30.235-06:00  INFO 7778 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-15T12:50:30.353-06:00  INFO 7778 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:50:30.710-06:00  INFO 7778 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-15T12:50:30.734-06:00  INFO 7778 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-15T12:50:30.735-06:00  INFO 7778 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:50:30.992-06:00  WARN 7778 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-15T12:50:31.191-06:00  INFO 7778 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-15T12:50:31.199-06:00  INFO 7778 --- [main] c.d.music_app.SpringTestApplication      : Started SpringTestApplication in 2.314 seconds (process running for 2.687)
+2023-06-15T12:50:49.510-06:00  INFO 7778 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-15T12:50:49.510-06:00  INFO 7778 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-15T12:50:49.511-06:00  INFO 7778 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-15T12:50:49.615-06:00  INFO 7778 --- [http-nio-8080-exec-1] c.d.m.service.impl.AlbumServiceImpl      : save {"albumId":null,"name":"Kings of leon","autor":"Kings of leon","price":78.99,"recordCompany":{"tittle":"rise records"},"tracks":[{"trackId":null,"name":"Find me","lycris":"some lycris"}]}
+2023-06-15T12:51:25.668-06:00  INFO 7778 --- [http-nio-8080-exec-3] c.d.m.service.impl.AlbumServiceImpl      : save {"albumId":null,"name":"","autor":"Kings of leon","price":78.99,"recordCompany":{"tittle":"rise records"},"tracks":[{"trackId":null,"name":"Find me","lycris":"some lycris"}]}
+2023-06-15T12:52:19.958-06:00  INFO 7778 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:52:19.959-06:00  INFO 7778 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-15T12:52:20.147-06:00  INFO 7778 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-15T12:52:20.155-06:00  INFO 7778 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-15T12:52:22.143-06:00  INFO 7954 --- [main] c.d.music_app.SpringTestApplication      : Starting SpringTestApplication using Java 17.0.7 with PID 7954 (/home/alejandro/Projects/DebuggeandoIdeas/udemy/music_app/target/classes started by alejandro in /home/alejandro/Projects/DebuggeandoIdeas/udemy/music_app)
+2023-06-15T12:52:22.145-06:00  INFO 7954 --- [main] c.d.music_app.SpringTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-06-15T12:52:22.481-06:00  INFO 7954 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-15T12:52:22.512-06:00  INFO 7954 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
+2023-06-15T12:52:22.769-06:00  INFO 7954 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-15T12:52:22.774-06:00  INFO 7954 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-15T12:52:22.775-06:00  INFO 7954 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-15T12:52:22.818-06:00  INFO 7954 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-15T12:52:22.818-06:00  INFO 7954 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 645 ms
+2023-06-15T12:52:22.836-06:00  INFO 7954 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-15T12:52:22.928-06:00  INFO 7954 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:music user=SA
+2023-06-15T12:52:22.929-06:00  INFO 7954 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-15T12:52:22.935-06:00  INFO 7954 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:music'
+2023-06-15T12:52:23.013-06:00  INFO 7954 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-15T12:52:23.040-06:00  INFO 7954 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-15T12:52:23.042-06:00  INFO 7954 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-15T12:52:23.108-06:00  INFO 7954 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:52:23.168-06:00  INFO 7954 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-15T12:52:23.185-06:00  INFO 7954 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-15T12:52:23.323-06:00  INFO 7954 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:52:23.696-06:00  INFO 7954 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-15T12:52:23.719-06:00  INFO 7954 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-15T12:52:23.720-06:00  INFO 7954 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:52:23.971-06:00  WARN 7954 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-15T12:52:24.182-06:00  INFO 7954 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-15T12:52:24.189-06:00  INFO 7954 --- [main] c.d.music_app.SpringTestApplication      : Started SpringTestApplication in 2.313 seconds (process running for 2.603)
+2023-06-15T12:52:28.223-06:00  INFO 7954 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-15T12:52:28.224-06:00  INFO 7954 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-15T12:52:28.224-06:00  INFO 7954 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-06-15T12:52:28.339-06:00  INFO 7954 --- [http-nio-8080-exec-2] c.d.m.service.impl.AlbumServiceImpl      : save {"albumId":null,"name":"Kings of leon","autor":"Kings of leon","price":78.99,"recordCompany":{"tittle":"rise records"},"tracks":[{"trackId":null,"name":"Find me","lycris":"some lycris"}]}
+2023-06-15T12:52:29.715-06:00  INFO 7954 --- [http-nio-8080-exec-3] c.d.m.service.impl.AlbumServiceImpl      : save {"albumId":null,"name":"Kings of leon","autor":"Kings of leon","price":78.99,"recordCompany":{"tittle":"rise records"},"tracks":[{"trackId":null,"name":"Find me","lycris":"some lycris"}]}
+2023-06-15T12:56:30.932-06:00  INFO 7954 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:56:30.932-06:00  INFO 7954 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-15T12:56:31.133-06:00  INFO 7954 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-15T12:56:31.141-06:00  INFO 7954 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-15T12:56:33.019-06:00  INFO 9543 --- [main] c.d.music_app.SpringTestApplication      : Starting SpringTestApplication using Java 17.0.7 with PID 9543 (/home/alejandro/Projects/DebuggeandoIdeas/udemy/music_app/target/classes started by alejandro in /home/alejandro/Projects/DebuggeandoIdeas/udemy/music_app)
+2023-06-15T12:56:33.021-06:00  INFO 9543 --- [main] c.d.music_app.SpringTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-06-15T12:56:33.365-06:00  INFO 9543 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-15T12:56:33.397-06:00  INFO 9543 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2023-06-15T12:56:33.658-06:00  INFO 9543 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-15T12:56:33.663-06:00  INFO 9543 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-15T12:56:33.663-06:00  INFO 9543 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-15T12:56:33.711-06:00  INFO 9543 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-15T12:56:33.712-06:00  INFO 9543 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 659 ms
+2023-06-15T12:56:33.731-06:00  INFO 9543 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-15T12:56:33.818-06:00  INFO 9543 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:music user=SA
+2023-06-15T12:56:33.819-06:00  INFO 9543 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-15T12:56:33.826-06:00  INFO 9543 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:music'
+2023-06-15T12:56:33.885-06:00  INFO 9543 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-15T12:56:33.911-06:00  INFO 9543 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-15T12:56:33.912-06:00  INFO 9543 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-15T12:56:33.972-06:00  INFO 9543 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:56:34.029-06:00  INFO 9543 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-15T12:56:34.043-06:00  INFO 9543 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-15T12:56:34.160-06:00  INFO 9543 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-15T12:56:34.490-06:00  INFO 9543 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-15T12:56:34.511-06:00  INFO 9543 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-15T12:56:34.512-06:00  INFO 9543 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:56:34.703-06:00  WARN 9543 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-15T12:56:34.918-06:00  INFO 9543 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-15T12:56:34.924-06:00  INFO 9543 --- [main] c.d.music_app.SpringTestApplication      : Started SpringTestApplication in 2.158 seconds (process running for 2.421)
+2023-06-15T12:56:39.829-06:00  INFO 9543 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-15T12:56:39.829-06:00  INFO 9543 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-15T12:56:39.830-06:00  INFO 9543 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-15T12:56:39.941-06:00  INFO 9543 --- [http-nio-8080-exec-2] c.d.m.service.impl.AlbumServiceImpl      : save {"albumId":null,"name":"Kings of leon","autor":"Kings of leon","price":78.99,"recordCompany":{"tittle":"rise records"},"tracks":[{"trackId":null,"name":"Find me","lycris":"some lycris"}]}
+2023-06-15T12:57:05.799-06:00  INFO 9543 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15T12:57:05.799-06:00  INFO 9543 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-15T12:57:05.997-06:00  INFO 9543 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-15T12:57:06.005-06:00  INFO 9543 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
