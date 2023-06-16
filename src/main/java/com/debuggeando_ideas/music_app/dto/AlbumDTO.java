@@ -5,8 +5,7 @@ import java.util.Set;
 
 import com.debuggeando_ideas.music_app.util.JsonUtil;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotNull;
+
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 
