@@ -29,7 +29,7 @@ public class AlbumServiceImpl implements IAlbumService {
 	
 	private static final Logger log = LoggerFactory.getLogger(AlbumServiceImpl.class);
 
-	private final AlbumRepository albumRpository;
+	private final AlbumRepository albumRepository;
 	private final TrackRepository trackRepository;
 	private final RecordCompanyRepository recordCompanyRepository;
 
@@ -39,7 +39,7 @@ public class AlbumServiceImpl implements IAlbumService {
 			TrackRepository trackRepository,
 			RecordCompanyRepository recordCompanyRepository
 			) {
-		this.albumRpository = albumRpository;
+		this.albumRepository = albumRpository;
 		this.trackRepository = trackRepository;
 		this.recordCompanyRepository = recordCompanyRepository;
 	}
@@ -47,7 +47,7 @@ public class AlbumServiceImpl implements IAlbumService {
 	@Override
 	public Set<AlbumDTO> getAll() {
 		Set<AlbumEntity> response = new HashSet<>();
-		this.albumRpository.findAll().forEach(response::add);
+		this.albumRepository.findAll().forEach(response::add);
 		if(response.isEmpty()) {
 			new NoSuchElementException("No data");
 		}
@@ -66,62 +66,62 @@ public class AlbumServiceImpl implements IAlbumService {
 			}
 		}
 		log.info("save {}", toSave.toString());
-		return (AlbumDTO) JsonUtil.bodyMapper(this.albumRpository.save(toSave), AlbumDTO.class);
+		return (AlbumDTO) JsonUtil.bodyMapper(this.albumRepository.save(toSave), AlbumDTO.class);
 	}
 
 	@Override
 	public AlbumDTO findById(Long id) {
-		return (AlbumDTO) JsonUtil.bodyMapper(this.albumRpository.findById(id).orElseThrow(), AlbumDTO.class);
+		return (AlbumDTO) JsonUtil.bodyMapper(this.albumRepository.findById(id).orElseThrow(), AlbumDTO.class);
 	}
 
 	@Override
 	public void delete(Long id) {
-		if(this.albumRpository.findById(id).isEmpty()) {
+		if(this.albumRepository.findById(id).isEmpty()) {
 			throw new NoSuchElementException("The id dont exist");
 		}
-		this.albumRpository.delete(this.albumRpository.findById(id).get());
+		this.albumRepository.delete(this.albumRepository.findById(id).get());
 	}
 
 	@Override
 	public AlbumDTO update(AlbumDTO album, Long id) {
-		if(this.albumRpository.findById(id).isEmpty()) {
+		if(this.albumRepository.findById(id).isEmpty()) {
 			throw new NoSuchElementException("The id dont exist");
 		}
-		AlbumEntity toUpdate = this.albumRpository.findById(id).get();
+		AlbumEntity toUpdate = this.albumRepository.findById(id).get();
 		toUpdate.setAutor(album.getAutor());
 		toUpdate.setName(album.getName());
 		toUpdate.setPrice(album.getPrice());
-		return (AlbumDTO) JsonUtil.bodyMapper(this.albumRpository.save(toUpdate), AlbumDTO.class);
+		return (AlbumDTO) JsonUtil.bodyMapper(this.albumRepository.save(toUpdate), AlbumDTO.class);
 	}
 
 	@Override
 	public AlbumDTO addTrack(TrackDTO track, Long id) {
-		if(!this.albumRpository.findById(id).isPresent()) {
+		if(!this.albumRepository.findById(id).isPresent()) {
 			throw new NoSuchElementException("The id dont exist");
 		}
-		AlbumEntity toUpdate = this.albumRpository.findById(id).get();
+		AlbumEntity toUpdate = this.albumRepository.findById(id).get();
 		toUpdate.addTrack((TrackEntity) JsonUtil.bodyMapper(track, TrackEntity.class));
-		return (AlbumDTO) JsonUtil.bodyMapper(this.albumRpository.save(toUpdate), AlbumDTO.class);
+		return (AlbumDTO) JsonUtil.bodyMapper(this.albumRepository.save(toUpdate), AlbumDTO.class);
 	}
 
 	@Override
 	public AlbumDTO removeTrack(TrackDTO track, Long id) {
-		if(this.albumRpository.findById(id).isEmpty()) {
+		if(this.albumRepository.findById(id).isEmpty()) {
 			throw new NoSuchElementException("The id dont exist");
 		}
-		AlbumEntity toUpdate = this.albumRpository.findById(id).get();
+		AlbumEntity toUpdate = this.albumRepository.findById(id).get();
 		
 		if(!this.trackRepository.existsById(track.getTrackId())) {
 			throw new NoSuchElementException("The track dont exist");
 		}
 		toUpdate.removeTrack((TrackEntity) JsonUtil.bodyMapper(track, TrackEntity.class));
-		this.albumRpository.save(toUpdate);
-		return (AlbumDTO) JsonUtil.bodyMapper(this.albumRpository.save(toUpdate), AlbumDTO.class);
+		this.albumRepository.save(toUpdate);
+		return (AlbumDTO) JsonUtil.bodyMapper(this.albumRepository.save(toUpdate), AlbumDTO.class);
 	}
 
 	@Override
 	public Set<AlbumDTO> findBetweenprice(Double min, Double max) {
-		 Set<AlbumEntity> response = this.albumRpository.findByPriceBetween(min, max);
+		 Set<AlbumEntity> response = this.albumRepository.findByPriceBetween(min, max);
 		 if (response.size() == 0) {
 			 throw new NoSuchElementException("Not records");
 		 }
