@@ -58,7 +58,7 @@ public class AlbumController {
 	
 	@GetMapping("between")
 	public ResponseEntity<Set<AlbumDTO>> fondBetweenPrice(@RequestParam Double min, @RequestParam Double max) {
-			return ResponseEntity.ok().body(this.service.findBetweenprice(min, max));
+			return ResponseEntity.ok().body(this.service.findBetweenPrice(min, max));
 	
 	}
 	

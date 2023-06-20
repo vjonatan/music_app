@@ -95,7 +95,7 @@ public class AlbumServiceImpl implements IAlbumService {
 	}
 
 	@Override
-	public Set<AlbumDTO> findBetweenprice(Double min, Double max) {
+	public Set<AlbumDTO> findBetweenPrice(Double min, Double max) {
 		Set<AlbumEntity> response = this.albumRepository.findByPriceBetween(min, max);
 		if (response.size() == 0) {
 			throw new NoSuchElementException("Not records");
@@ -119,7 +119,7 @@ public class AlbumServiceImpl implements IAlbumService {
 	public AlbumDTO removeTrack(TrackDTO track, Long id) {
 		AlbumEntity toUpdate = this.albumRepository.findById(id).get();
 
-		if(!this.albumRepository.findById(id).isPresent()) {
+		if(!this.trackRepository.existsById(track.getTrackId())) {
 			throw new NoSuchElementException("The track dont exist");
 		}
 		toUpdate.removeTrack((TrackEntity) JsonUtil.bodyMapper(track, TrackEntity.class));

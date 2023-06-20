@@ -12,6 +12,6 @@ public interface IAlbumService extends SimpleService<AlbumDTO, Long> {
 	
 	public AlbumDTO removeTrack(TrackDTO track, Long id);
 	
-	public Set<AlbumDTO> findBetweenprice(Double min, Double max);
+	public Set<AlbumDTO> findBetweenPrice(Double min, Double max);
 
 }
