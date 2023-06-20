@@ -47,7 +47,7 @@ public class TrackServiceImpl implements ITrackService {
 
 	@Override
 	public void delete(Long entity) {
-		// TODO Auto-generated method stub
+		this.repository.deleteById(entity);
 		
 	}
 
