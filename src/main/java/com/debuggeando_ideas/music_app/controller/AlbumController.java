@@ -26,7 +26,7 @@ public class AlbumController {
 	}
 	
 	@PostMapping
-	public ResponseEntity<AlbumDTO> save(@Valid @RequestBody AlbumDTO album) {;
+	public ResponseEntity<AlbumDTO> save(@Valid @RequestBody AlbumDTO album) {
 		return ResponseEntity.created(URI.create("v1/album/" + this.service.save(album).getAlbumId())).build();
 	}
 	
@@ -43,7 +43,7 @@ public class AlbumController {
 	@DeleteMapping("{id}")
 	public ResponseEntity<AlbumDTO> delete(@PathVariable Long id) {
 		this.service.delete(id);
-		return ResponseEntity.ok().build();
+		return ResponseEntity.noContent().build();
 	}
 	
 	@PatchMapping("add/{id}")
