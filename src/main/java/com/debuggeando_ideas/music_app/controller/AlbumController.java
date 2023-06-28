@@ -43,7 +43,7 @@ public class AlbumController {
 	@DeleteMapping("{id}")
 	public ResponseEntity<AlbumDTO> delete(@PathVariable Long id) {
 		this.service.delete(id);
-		return ResponseEntity.noContent().build();
+		return ResponseEntity.notFound().build();
 	}
 	
 	@PatchMapping("add/{id}")
