@@ -40,6 +40,11 @@ public class AlbumServiceTest extends ServiceSpec{
                 .thenReturn(Optional.empty());
     }
 
+    @AfterEach
+    void resetMocks(){ //resetea los mocks de albumRepositoryMock - una buena practica
+        reset(this.albumRepositoryMock);
+    }
+
     @Test
     void findById(){
         var result = this.albumService.findById(VALID_ID);
