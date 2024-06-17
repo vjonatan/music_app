@@ -8,18 +8,15 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.springframework.boot.test.context.*;
-import org.springframework.test.context.*;
 
-import javax.xml.crypto.*;
-import java.util.*;
+import java.util.NoSuchElementException;
+import java.util.Optional;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
-@SpringBootTest
-@ActiveProfiles("test")
-public class TrackServiceTest {
+public class TrackServiceTest extends ServiceSpec{
 
     @Mock
     private TrackRepository trackRepository;
